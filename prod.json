@@ -1,0 +1,17 @@
+[
+	{
+		"name": "gdc2019-prod",
+		"script": "app-server.js",
+		"watch": [
+			"app-server.js",
+			"app.js"
+		],
+		"env": {
+			"NODE_ENV": "prod",
+			"WEBPACK_CONFIG": "webpack.prod.js",
+			"DEBUG": "gdc2019:*",
+			"PORT": 8181,
+			"NODE_APP_INSTANCE": "gdc2019"
+		}
+	}
+]
